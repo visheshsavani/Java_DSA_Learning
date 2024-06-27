@@ -13,7 +13,7 @@ public class string_2{
         }
         System.out.println(sb);*/
 
-        /*the below method is optimal,because we have not made any duplicate string*/
+        /*the below method is optimal,because we have not made any duplicate string
         StringBuilder sb = new StringBuilder("Tony");
         for(int i =0;i<(sb.length()/2);i++){
             int front = i;
@@ -23,6 +23,10 @@ public class string_2{
             sb.setCharAt(front,backind);
             sb.setCharAt(back,frontind);
         }
-        System.out.println(sb);
+        System.out.println(sb);*/
+        StringBuilder sc = new StringBuilder("vishesh");
+        sc.reverse();
+        String a = sc.toString();
+        System.out.println(a);
     }
 }
