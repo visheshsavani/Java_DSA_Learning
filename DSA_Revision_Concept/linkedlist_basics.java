@@ -25,15 +25,18 @@ public class linkedlist_basics{
 
     // search(list1,55);
 
-    LinkedList<Integer> list1 = new LinkedList<Integer>();
-    for(int i=1;i<=50;i++){
-        list1.add(i);
-    }
+    // LinkedList<Integer> list1 = new LinkedList<Integer>();
+    // for(int i=1;i<=50;i++){
+    //     list1.add(i);
+    // }
 
-    for(int i =0;i<list1.size();i++){
-       list1.removeIf(value -> value > 25);
-        }
-    System.out.println(list1);
+    // for(int i =0;i<list1.size();i++){
+    //    list1.removeIf(value -> value > 25);
+    //     }
+    // System.out.println(list1);
+
+    Collections.reverse(list);
+    System.out.println(list);
     }
     static void search(LinkedList<Integer> list,int value){
         for(int i =0;i<list.size();i++){
